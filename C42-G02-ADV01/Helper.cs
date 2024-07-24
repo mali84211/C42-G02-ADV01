@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace C42_G02_ADV01
 {
-    internal class Helper<T>
+    internal class Helper<T> where T : class?, IComparable<T>
     {
+        //public static T Sum(T X,T Y)
+        //{
+        //    return X + Y;
+        //}
         //public static void SWAP(ref int x,ref int y)
         //{
         //    int Temp = x;

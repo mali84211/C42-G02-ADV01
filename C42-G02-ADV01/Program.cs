@@ -33,9 +33,9 @@ namespace C42_G02_ADV01
             #endregion
 
             #region V2
-           // int[] Numbers = {4,5,6,9,3,2,8,1,7};
-           //int index= Helper.SearchArray(Numbers, 6);
-           // Console.WriteLine(index);
+            // int[] Numbers = {4,5,6,9,3,2,8,1,7};
+            //int index= Helper.SearchArray(Numbers, 6);
+            // Console.WriteLine(index);
 
             //Employee E1=new Employee()
             //{Id=10,Name="mo",Salary=3000 };
@@ -48,12 +48,19 @@ namespace C42_G02_ADV01
             //if (E1 Equals (E2))
             //    Console.WriteLine("Equal");
             //else Console.WriteLine("not Equal");
-
-
             #endregion
 
 
-            #region
+            #region V3
+            //Employee E1 = new Employee()
+            //{ Id = 10, Name = "mo", Salary = 3000 };
+            //Employee E2 = new Employee()
+            //{ Id = 11, Name = "amr", Salary = 4000 };
+            //Console.WriteLine(E1.GetHashCode());
+            //Console.WriteLine(E2.GetHashCode());
+
+            //int X = 10;
+            //Console.WriteLine(X.GetHashCode());
             #endregion
         }
     }
